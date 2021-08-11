@@ -4,10 +4,16 @@ abstract class Failure extends Equatable {
   Failure([List properties = const <dynamic>[]]);
 }
 
-abstract class ServerFailure extends Failure {
+class ServerFailure extends Failure {
+  @override
+  // TODO: implement props
+  List<Object?> get props => throw UnimplementedError();
 
 }
 
-abstract class CacheFailure extends Failure {
+class CacheFailure extends Failure {
+  @override
+  // TODO: implement props
+  List<Object?> get props => throw UnimplementedError();
 
 }
