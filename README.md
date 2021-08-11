@@ -1,6 +1,6 @@
 # clean
 
-A new Flutter project.
+A Number Trivia Flutter app that implements Uncle Bob's Clean Architecture
 
 ## Getting Started
 
